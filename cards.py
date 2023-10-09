@@ -96,6 +96,6 @@ def spade():
 #### The main code that gets run
 # Only modify code below this line
 
-spade()
+club()
 
 done()
