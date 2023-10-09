@@ -101,14 +101,19 @@ def move_next():
 #### The main code that gets run
 # Only modify code below this line
 
-suit = textinput("Suit", "Enter any suit from (spade, heart, diamond, club) : ")
-if suit == "spade":
-    spade()
-if suit == "heart":
-    heart()
-if suit == "diamond":
-    diamond()
-if suit == "club":
-    club()
+up()
+setpos(-200,0)
+down()
+for _ in range(5):
+    suit = textinput("Suit", "Enter any suit from (spade, heart, diamond, club) : ")
+    if suit == "spade":
+        spade()
+    if suit == "heart":
+        heart()
+    if suit == "diamond":
+        diamond()
+    if suit == "club":
+        club()
+    move_next()
 
 done()
