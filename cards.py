@@ -101,7 +101,7 @@ def move_next():
 #### The main code that gets run
 # Only modify code below this line
 
-suit = input("Enter any suit from (spade, heart, diamond, club) : ")
+suit = textinput("Suit", "Enter any suit from (spade, heart, diamond, club) : ")
 if suit == "spade":
     spade()
 if suit == "heart":
