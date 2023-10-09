@@ -8,12 +8,20 @@ def star(size):
         forward(size)
         right(144)
 
+def move_turtle():
+    penup()
+    forward(100)
+    pendown()
 
 ### Main code area
 # Modify code below this line
 
 
 star(25)
+move_turtle()
+star(50)
+move_turtle()
+star(100)
 
 done()
 
