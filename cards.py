@@ -96,6 +96,10 @@ def spade():
 #### The main code that gets run
 # Only modify code below this line
 
+spade()
+penup()
+forward(100)
+pendown()
 heart()
 
 done()
