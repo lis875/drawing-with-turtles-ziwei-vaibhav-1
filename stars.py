@@ -4,7 +4,9 @@ from turtle import *
 # Modify code in this section
 
 def star():
-    pass
+    for j in range(5):
+        forward(50)
+        right(144)
 
 
 ### The main code that gets run
