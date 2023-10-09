@@ -4,7 +4,17 @@ from turtle import *
 # Modify the code in this function
 
 def bar(bar_color):
-    pass
+    fillcolor(bar_color)
+    begin_fill()
+    forward(300)
+    right(90)
+    forward(50)
+    right(90)
+    forward(300)
+    right(90)
+    forward(50)
+    right(90)
+    end_fill()
 
 ### Main code that gets run, to draw the german flag
 # Do not modify code below this line for Exercise 7.  It is OK to add code below this for Exercise 8
