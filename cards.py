@@ -93,13 +93,18 @@ def spade():
     setheading(0)
 
 
+def move_turtle():
+    penup()
+    forward(100)
+    pendown()
+
 #### The main code that gets run
 # Only modify code below this line
 
-spade()
-penup()
-forward(100)
-pendown()
-heart()
+club()
+move_turtle()
+club()
+move_turtle()
+diamond()
 
 done()
